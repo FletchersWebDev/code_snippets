@@ -1,0 +1,7 @@
+/*This code removes the title and video links from Youtube embedded videos. It must be added directly on the end of the link.*/
+
+?rel=0&amp;showinfo=0
+
+/*Like this | <iframe class="video" src="https://www.youtube.com/embed/iJz-v4RqgqU?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+Change this part of the code for each new video https://www.youtube.com/embed/iJz-v4RqgqU
+*/
