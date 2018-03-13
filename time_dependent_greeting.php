@@ -20,3 +20,48 @@ if ( $Hour >= 5 && $Hour <= 11 ) {
     echo "Good Evening";
 }
 ?>
+
+<!--You can also set your greeting to include days of the week. Using a PHP Switch-->
+
+<?php
+
+date_default_timezone_set('UTC');
+
+$Hour = date('G');
+if ( $Hour >= 5 && $Hour <= 11 ) {
+echo "Good morning";
+} else if ( $Hour >= 12 && $Hour <= 18 ) {
+echo "Good afternoon";
+} else if ( $Hour >= 19 || $Hour <= 4 ) {
+echo "Good evening";
+}
+
+$date = date('l');
+
+switch ($date) {
+  case 'Sunday':
+    $content = " we hope you are enjoying your weekend!";
+    break;
+  case 'Monday':
+    $content = " a happy Monday always starts with a smile ;-)";
+    break;
+  case 'Tuesday':
+    $content = " have a terrific Tuesday!";
+    break;
+  case 'Wednesday':
+    $content = " have a wonderful Wednesday!";
+    break;
+  case 'Thursday':
+    $content = " have a thankful Thursday!";
+    break;
+  case 'Friday':
+    $content = " have a feel good Friday!";
+    break;
+  case 'Saturday':
+    $content = " we hope you are enjoying your weekend!";
+    break;
+}
+
+echo $content;
+?>
+
