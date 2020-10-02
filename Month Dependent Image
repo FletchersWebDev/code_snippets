@@ -1,0 +1,71 @@
+<?php
+  date_default_timezone_set('UTC');
+  
+	$date = date('m');
+	switch ($date) {
+			
+	case '1':
+	$monthlyImage = "images/JanuaryImage.jpg";
+	$monthlyAlt = "Image description for January";
+    break;
+			
+	case '2':
+	$monthlyImage = "images/FebruaryImage.jpg";
+	$monthlyAlt = "Image description for February";
+    break;
+			
+	case '3':
+	$monthlyImage = "images/MarchImage.jpg";
+	$monthlyAlt = "Image description for March";
+    break;
+			
+	case '4':
+	$monthlyImage = "images/AprilImage.jpg";
+	$monthlyAlt = "Image description for April";
+    break;
+			
+	case '5':
+	$monthlyImage = "images/MayImage.jpg";
+	$monthlyAlt = "Image description for May";
+    break;
+			
+	case '6':
+	$monthlyImage = "images/JuneImage.jpg";
+	$monthlyAlt = "June";
+    break;
+			
+	case '7':
+	$monthlyImage = "images/JulyImage.jpg";
+	$monthlyAlt = "July";
+    break;
+	
+	case '8':
+	$monthlyImage = "images/AugustImage.jpg";
+	$monthlyAlt = "August";
+    break;
+	
+	case '9':
+	$monthlyImage = "images/SeptemberImage.jpg";
+	$monthlyAlt = "September";
+    break;
+	
+	case '10':
+	$monthlyImage = "images/OctoberImage.jpg";
+	$monthlyAlt = "October";
+    break;
+						
+	case '11':
+	$monthlyImage = "images/NovemberImage.jpg";
+	$monthlyAlt = "November";
+    break;
+
+	case '12':
+	$monthlyImage = "images/DecemberImage.jpg";
+	$monthlyAlt = "December";
+    break;
+}
+
+?>
+
+
+<img src=<?php echo("$monthlyImage");?> class="slide" alt=<?php echo("$monthlyImage");?>/>
