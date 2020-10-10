@@ -1,0 +1,5 @@
+<details>
+  <summary class="btn">Click here to read more detail</summary>
+  <p>This can be integrated into WordPress using custom HTML but autoP must be disabled first.
+  You would just wrap the details and summary tag around your wordpress content page.</p>
+</details>
