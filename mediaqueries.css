@@ -1,0 +1,22 @@
+@media (max-width: 1020px) {
+
+/*Add specific css for larger screens here*/
+
+}
+@media (max-width: 780px) {
+
+/*Add specific css for tablets and medium size screens here*/
+
+}
+
+@media (max-width: 480px) {
+
+/*Add specific css for phones and small screens here*/
+
+}
+
+@media (max-width: 280px) {
+
+/*Add specific css for smart watches and tiny screens here*/
+
+}
