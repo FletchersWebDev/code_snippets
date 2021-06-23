@@ -6,6 +6,14 @@ add_theme_support( 'post-thumbnails' );
 //Support for Custom Logo
 add_theme_support('custom-logo');
 
+//Adds custom class to the custom logo
+add_filter( 'get_custom_logo', 'change_logo_class' );
+function change_logo_class( $html ) {
+
+    $html = str_replace( 'custom-logo', 'title', $html );
+    return $html;
+}
+
 //Support for WooCommerce
 function halewood_add_woocommerce_support() {
     add_theme_support( 'woocommerce', array(
