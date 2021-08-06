@@ -1,0 +1,3 @@
+//Updating a Database via command line arguments
+CREATE DATABASE DatabaseName DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+CREATE USER 'UserName'@'%' IDENTIFIED BY 'UserPassword';
