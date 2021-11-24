@@ -1,0 +1,5 @@
+/*Allows webpages to zoom in and out without altering the layout or responsiveness*/
+html{
+    max-width:1920px;
+    margin:0 auto;
+}
