@@ -1,6 +1,8 @@
 <?php
 
-if (isset($halewood_custom_post_types_options['option_id'])){
+$nameoptions_options = get_option( 'nameoptions_option_name' );
+
+if (isset($nameoptions_options['option_id'])){
     require_once(plugin_dir_path(__FILE__).'../custom-code.php');
     require_once(plugin_dir_path(__FILE__).'../custom-code2.php');
 
